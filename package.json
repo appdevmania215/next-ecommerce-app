@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.6",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "^8.1.2",
+    "styled-components": "^6.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "babel-plugin-inline-react-svg": "^2.0.2",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
