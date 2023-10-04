@@ -37,7 +37,6 @@ export default function Product() {
           ) : (
             status === "succeeded" && <ProductDetail product={product} />
           )}
-          {/* <ProductDetail product={product} /> */}
         </Container>
       </styles.Cover>
     </Layout>

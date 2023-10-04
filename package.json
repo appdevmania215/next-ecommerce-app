@@ -21,6 +21,7 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "babel-plugin-inline-react-svg": "^2.0.2",
+    "babel-plugin-styled-components": "^2.1.4",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "typescript": "latest"
