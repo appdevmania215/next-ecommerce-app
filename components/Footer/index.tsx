@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import * as F from "./styles";
 import { Container } from "@/styles/widgets";
-import FB from "@/public/assets/shared/icon-facebook.svg";
-import TW from "@/public/assets/shared/icon-twitter.svg";
-import INSTA from "@/public/assets/shared/icon-instagram.svg";
+import FB from "../../public/assets/shared/icon-facebook.svg";
+import TW from "../../public/assets/shared/icon-twitter.svg";
+import INSTA from "../../public/assets/shared/icon-instagram.svg";
 
 export default function Footer() {
   return (
@@ -32,27 +32,9 @@ export default function Footer() {
           <F.Text>Copyright 2023. All Rights Reserved</F.Text>
 
           <F.Socials>
-            <Image
-              src={FB}
-              height={24}
-              width={24}
-              alt="facebook"
-              loading="lazy"
-            />
-            <Image
-              src={TW}
-              height={24}
-              width={24}
-              alt="twitter"
-              loading="lazy"
-            />
-            <Image
-              src={INSTA}
-              height={24}
-              width={24}
-              alt="instagram"
-              loading="lazy"
-            />
+            <FB height={24} width={24} />
+            <TW height={24} width={24} />
+            <INSTA height={24} width={24} />
           </F.Socials>
         </F.Bottom>
       </Container>
